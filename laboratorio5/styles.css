@@ -11,7 +11,7 @@ body {
 /* Encabezado */
 header {
     text-align: center;
-    background: #007bff;
+    background: hotpink;
     color: white;
     padding: 1em 0;
 }
@@ -22,7 +22,7 @@ main {
 }
 
 h2 {
-    color: #007bff;
+    color: hotpink;
 }
 
 /* Tablas */
@@ -39,7 +39,7 @@ th, td {
 }
 
 th {
-    background-color: #007bff;
+    background-color: hotpink;
     color: white;
 }
 
@@ -62,14 +62,14 @@ input, textarea, button {
 }
 
 button {
-    background-color: #007bff;
+    background-color: hotpink;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: hotpink;
 }
 
 /* Imagen */
