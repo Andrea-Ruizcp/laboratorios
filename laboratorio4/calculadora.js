@@ -26,15 +26,15 @@ function realizarOperacion(num1, num2, operacion) {
 let continuar = true;
 
 while (continuar) {
-    num1 = parseFloat(prompt("Ingrese el primer número:"));
-    num2 = parseFloat(prompt("Ingrese el segundo número:"));
-    operacion = prompt("Ingrese la operación (suma, resta, multiplicacion, division):");
+    num1 = parseFloat(prompt("Ingrese el primer número: "));
+    num2 = parseFloat(prompt("Ingrese el segundo número: "));
+    operacion = prompt("Ingrese la operación (suma, resta, multiplicacion, division): ");
 
     let resultado = realizarOperacion(num1, num2, operacion);
 
     alert("El resultado es: " + resultado);
 
-    let respuesta = prompt("¿Desea realizar otra operación? (si/no)").toLowerCase();
+    let respuesta = prompt("¿Desea realizar otra operación? (si/no): ").toLowerCase();
 
     if (respuesta !== "si") {
         continuar = false;
