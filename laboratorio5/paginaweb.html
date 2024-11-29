@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Personal</h1>
+        <p>Una breve introducción sobre mí y mis intereses.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Acerca de mí</h2>
+            <p>Hola, mi nombre es Andrea. Me apasiona el desarrollo web y la tecnología.</p>
+            <img src="mi_foto.jpg" alt="Mi foto" class="imagen-personal">
+        </section>
+
+        <section>
+            <h2>Mis Hobbies</h2>
+            <ul>
+                <li>Leer libros de tecnología</li>
+                <li>Programar proyectos personales</li>
+                <li>Explorar nuevos lenguajes de programación</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mi Horario Semanal</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Actividad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>Estudiar JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>Practicar CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Desarrollar proyectos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <form id="contacto-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mi Primer Sitio Web - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
